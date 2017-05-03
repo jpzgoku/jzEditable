@@ -2,18 +2,14 @@
 
 A jQuery plugin to add editable divs to your webpage!
 
-##
-Live Demo:
-<a href="https://github.com/jpzgoku/jzEditable/demo.html"> View live demo</a>
-
 ## Usage
 
-Default:
+Save on blur:
 ```
 $('.textDiv').jzEditable();
 ```
 
-Save on Click:
+Save Button:
 ```
 $('.textDiv').jzEditable({hasSaveButton: true});
 ```
