@@ -1,4 +1,4 @@
 window.onload = function() {
-	$('.noSaveButton').jzEditable({hasSaveButton: false});
-	$('.saveOnClick').jzEditable({hasSaveButton: true});
+	$('.noSaveButton').jzEditable();
+	$('.saveOnClick').jzEditable({hasSaveButton: true, divWidth: '50%'});
 }
